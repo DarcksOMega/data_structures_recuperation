@@ -10,8 +10,11 @@ public class Test {
             c.add(i);
         }
         c.print();
-//        c.moveFirtsToEnd();
-//        c.print();
+        c.moveFirtsToEnd();
+        c.print();
+        c.moveLastToBeginning();
+        c.print();
+        c.invert();
         
     }
     

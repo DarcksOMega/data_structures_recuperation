@@ -64,7 +64,12 @@ public class List {
     
     public void invert(){
         
-        
+        Node aux = head.back;
+        do {
+            System.out.print(" " + aux.data);
+            aux = aux.back;
+        } while (aux != head.back);
+        System.out.println();
         
     }
 
