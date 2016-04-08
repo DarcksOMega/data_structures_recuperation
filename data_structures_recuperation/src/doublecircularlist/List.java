@@ -58,6 +58,11 @@ public class List {
     
     public void remove(int p){
         
+        if (head == null) {
+        
+            
+            
+        }
         
         
     }
